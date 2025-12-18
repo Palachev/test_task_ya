@@ -6,16 +6,16 @@
 
 ```
 .
-├── docker/      # Dockerfile, docker-compose.yml, index.html (Nginx + кастомная страница)
-├── scripts/     # clean_old_logs.sh (удаление .log старше N дней с подтверждением)
-├── git/         # git-cheatsheet.md (stash/switch/amend сценарии)
-├── ci/          # github-actions-ci.yml (пример CI: tests → build → push → telegram)
+├── A1/test-project/      # Dockerfile, docker-compose.yml, index.html 
+├── B1/     # clean_old_logs.sh (удаление .log старше N дней с подтверждением)
+├── B2/         # git-cheatsheet.md (stash/switch/amend сценарии)
+├── B3/          # github-actions-ci.yml (пример CI: tests → build → push → telegram)
 └── README.md
 ```
 
 ## Где что смотреть
 
-* Docker: `docker/`
-* Bash: `scripts/clean_old_logs.sh`
-* Git: `git/git-cheatsheet.md`
-* CI/CD: `ci/github-actions-ci.yml`
+* Docker: `A1/test-project/`
+* Bash: `B1/clean_old_logs.sh`
+* Git: `B2/git-cheatsheet.md`
+* CI/CD: `B3/github-actions-ci.yml`
