@@ -23,3 +23,5 @@ push → tests → build image → push image → notify
     message: CI finished
 
 ```
+### Общая структура 
+<img width="1040" height="420" alt="image" src="https://github.com/user-attachments/assets/3061337e-7c39-4652-bc24-ec390ad3dce4" />
